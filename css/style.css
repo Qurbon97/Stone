@@ -1,0 +1,548 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+:root{
+    --Rightous:"Righteous";
+    --Ubuntu:"Ubuntu";
+}
+body{
+    background: url(../images/body-bg_01.jpg);
+    background-repeat: no-repeat;
+    background-color: #1b1a1d;
+    background-size: cover;
+    font-family: "Ubuntu";
+    font-weight: 400;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+header{
+    background: url(../images/header-bg_02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    color: #fff;
+}
+
+.sectionWidth{
+    width: 1300px;
+    margin: 0 auto;
+    background-color: #fff;
+    
+}
+.nav__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 27px;
+    /* padding-right: 70px; */
+}
+.header__items{
+    display: flex;
+    width: 660px;
+    justify-content: space-between;
+    transition: 0.3s;
+}
+
+.header__logo{
+    display: flex;
+    align-items: center;
+    font-family: "Righteous";
+    color: #fff;
+    font-size: 42px;
+}
+.header__logo img{
+    margin-right: 20px;
+}
+.header__nav_links{
+    border-right: 1px solid #bdbbb5;
+    padding: 13px 30px;
+    color: #fff;
+    font-family: var(--Ubuntu);
+    font-weight: 500;
+    font-size:19px;
+}
+.header__nav_links:hover{
+    color: #fedc3d;
+}
+.bNone{
+    border: none;
+}
+.header__title{
+    margin-top: 325px;
+    font-size: 110px;
+
+    font-family: "Righteous";
+}
+.header__subtitle{
+    font-size: 20px;
+    margin: 19px 0 42px;
+}
+.header__arrows {
+    width: 135px;
+    margin: 212px auto 0;
+    padding-top: 128px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 128px;
+}
+.rightSide__arrow img {
+    transform: rotateY(180deg);
+}
+.header__icons{
+    width: 90px;
+    justify-content: space-between;
+    margin: 0 auto;
+    font-size: 25px;
+    
+}
+.header__icons a{
+    color:#fff;
+   
+}
+.welcome__sectionWidth{
+    
+    
+}
+.Welcome__container{
+    padding-top:107px;
+    padding-bottom: 112px;
+   
+}
+.WelcomeContainer__general{
+   display: flex; 
+}
+.welcome__left{
+    width: 570px;
+    margin-top: 40px;
+}
+.welcome__leftBox{
+    margin-right: 30px;
+}
+.welcome__title{
+    font-family: var(--Rightous);
+    width: 1170px;
+    margin: 0 auto;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e3e3e4;
+    
+}
+.welcome__leftTitle{
+    font-family: var(--Ubuntu);
+    font-size: 17px;
+    font-weight: 500;
+    padding: 51px 0 27px;
+}
+.welcome__subtitle{
+    font-family: var(--Ubuntu);
+    font-size: 15px;
+    font-weight: 300;
+    padding-bottom: 62px;
+}
+.welcome__button{
+    display: inline-flex;
+  
+    /* In order  put icon and words in center Use!! 
+    align-items:center;*/
+    align-items: center;
+    font-family: var(--Ubuntu);
+    font-size: 15px;
+    font-weight: 500;
+    color: #302e33;
+}
+.welcome__button img{
+    padding-left: 10px;
+    
+}
+.style__sectionWidth{
+    background: url(../images/body-bg_01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.style__container{
+    
+    display: flex;
+    align-items: center;
+    flex-direction:column ;
+    color: #fff;
+    padding: 327px 0 293px;
+    /* width: 1000px; */
+}
+
+.style__title{
+    font-size: 110px;
+    font-weight: 400;
+    font-family: var(--Rightous);
+}
+.style__subtitle{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--Ubuntu);
+    padding: 24px 0 75px;
+}
+.style__info{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: var(--Ubuntu);
+    width: 995px;
+    margin: 68px auto 55px;
+    text-align: center;
+   
+   
+   
+
+    
+}
+.style__button{
+    color: #fff;
+}
+.features{
+    padding: 140px 0;
+   
+}
+features__container{
+    padding: 152px 0 152px;
+}
+.features__title{
+    font-size:20px ;
+    font-weight: 400;
+    font-family: var(--Ubuntu);
+    padding-top: 96px;
+    
+}
+.features__number{
+    font-size:147px ;
+    font-weight: 300;
+    font-family: var(--Ubuntu);
+    color: #ed577b;
+    letter-spacing: -15px;
+    padding: 69px 0 80px;
+
+}
+.features__number span{
+    font-size: 57px;
+    font-weight: 500;
+    vertical-align: top;
+}
+.features__subtitle{
+    width:310px ;
+    font-size:15px ;
+    font-weight: 300;
+    font-family: var(--Ubuntu);
+    padding-bottom: 69px;
+    line-height: 25px;
+}
+.features__box{
+    text-align: center;
+    
+}
+.features__container{
+    display: flex;
+    justify-content: space-between;
+}
+.nature{
+    background: url(../images/bg-section_2_03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 435px 0 417px;
+    color: #fff;
+    text-align: center;
+}
+.nature__info{
+    font-family: var(--Ubuntu);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.solution{
+    padding: 90px 0 115px;
+}
+.all{
+    position: relative;
+    width: 910px;
+    margin: 0 auto;
+    height: 635px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 55px;
+}
+.all::after{
+    content: '';
+    position: absolute;
+    width: 1px;
+    background:#e3e3e4 ;
+    height: 544px;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%, -50%);
+    z-index: 1;
+    
+}
+.all::before{
+    content: '';
+    position: absolute;
+    width: 855px;
+    background:#e3e3e4;
+    height: 1px;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%, -50%);
+    z-index: 1;
+    
+}
+.card{
+   
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    position: relative;
+  
+   
+}
+.pd{
+    padding-top: 42px;
+}
+.card__imgDrop{
+    margin-bottom: 22px;
+}
+.card__title{
+    font-size:20px ;
+    color: #302e33;
+}
+.card__subtitle{
+    margin: 19px 0 43px;
+    font-size:15px;
+    font-weight: 300;
+    font-family: var(--Ubuntu);
+}
+.tR{
+    width: 0; 
+    height: 0;
+    border-bottom: 100px solid #f3f3f3;
+    border-left: 100px solid transparent;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.tL{
+    width: 0; 
+    height: 0;
+    border-bottom: 100px solid #f3f3f3;
+    border-right: 100px solid transparent;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.bR{
+    width: 0; 
+    height: 0;
+    border-top: 100px solid #f3f3f3;
+    border-left: 100px solid transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.bL{
+    width: 0; 
+    height: 0;
+    border-top: 100px solid #f3f3f3;
+    border-right: 100px solid transparent;
+    position: absolute;
+    top: 0;
+    lefts: 0;
+}
+.card:hover .tR,
+.card:hover .tL{
+    border-bottom-color: #ed577b;
+}
+.card:hover .bR,
+.card:hover .bL{
+    border-top-color: #ed577b;
+}
+.angle{
+    transition: 0.6s;
+}
+
+
+
+
+
+.client{
+    background: url(../images/bg-section_03.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 162px 0 169px;
+    color: #fff;
+}
+.client__container{
+    
+}
+.client__adv{
+    padding: 125px 0;
+    display: flex;
+    align-items: center;
+
+    
+}
+.client__title{
+    font-family: var(--Rightous);
+    width: 1170px;
+    margin: 0 auto;
+    font-size: 60px;
+    font-weight: lighter;
+    text-align: center;
+   
+    
+}
+.clients__box{
+    /* display: flex;
+    flex-direction: column;
+    align-content: center; */
+    text-align: center;
+    width: 289px;
+    
+    /* border-right: 1px solid #69676d; */
+    /* padding:0 10px; */
+   
+}
+.clients__box img{
+    height: 164px;
+}
+.clientBox__title{
+    padding: 85px 0 27px;
+    font-size:17px;
+    font-weight: 500;
+    font-family: var(--Ubuntu);
+}
+.clientBox__subtitle{
+    line-height: 25px;
+    font-size:15px;
+    font-weight: 300;
+    font-family: var(--Ubuntu);
+}
+.Cbox__special{
+    border-right: none;
+}
+.client_cicles{
+    width: 75px;
+    display: flex;
+    justify-content: space-between;
+    margin:125px auto 0;
+}
+
+.line{
+    width: 1px;
+    height: 192px;
+    background: #656469
+}
+.client_cicles div{
+    
+    width: 13px;
+    height: 13px;
+    background: #fff;
+    border-radius:50%;
+    border: 4px solid transparent; 
+    
+}
+.active{
+    background: none !important;
+    border: 4px solid #fff !important; 
+}
+.contact{
+    padding: 120px 0 185px;
+}
+.contact__info{
+    display: flex;
+    justify-content: space-between;
+}
+.contact__box{
+    padding: 41px 0 70px;
+    width: 570px;
+   
+}
+.contact__label{
+    padding-top: 100px;
+    font-family: var(--Ubuntu);
+    font-size: 17px;
+    font-weight: 400; 
+    color: #898d8f;
+}
+.contact__innerBox{
+    display: block;
+    width: 570px;
+    border: none;
+    border-bottom: 1px solid #e3e3e3;
+    padding-bottom: 25px;
+    margin-top: 40px;
+    padding-left: 19px;
+    padding-top: 2px;
+    font-family: var(--Ubuntu);
+    font-weight: 400;
+    font-size: 17px;
+}
+.textarea{
+    resize: none;
+    border: none;
+    font-family: var(--Ubuntu);
+    font-weight: 400;
+    font-size: 17px;
+    padding: 3px;
+}
+
+.message__label{
+    padding-bottom: 5px;
+    font-family: var(--Ubuntu);
+    font-size: 17px;
+    font-weight: 400; 
+    color: #898d8f;
+}
+.message__box{
+    padding: 28px 19px 0;
+    border: 1px solid #e3e3e3;
+    height: 240px;
+}
+.message__input{
+    width: 530px;
+    height:177px;
+    border-color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    padding-left:3px; 
+}
+.contact__buttons{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 186px;
+}
+.cButtons__box{
+    width: 176px;
+    display: flex;
+    justify-content: space-between;
+}
+.contacs__emblem{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.emblem__logo{
+    color: #302e33;
+    padding-bottom: 32px;
+}
+.emblem__policy{
+    text-transform: uppercase;
+    font-family: var(--Ubuntu);
+    font-weight: 300;
+    font-size: 10px;
+}
